@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: white;
+  margin: 0;
+}
+
+.main-body {
+  background-color: red;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: center;
+  border: 1px solid;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  background: rgba(27, 27, 50, 0.8);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+form input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+  overflow: hidden;
+  box-sizing: content-box;
+}/*# sourceMappingURL=style.css.map */
